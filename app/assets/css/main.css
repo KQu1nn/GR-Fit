@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Public Sans", sans-serif;
+  --font-bentham: "Bentham", serif;
+}
+
+.font-bentham {
+  font-family: var(--font-bentham);
+}
