@@ -5,7 +5,9 @@
       <Works />
       <About />
       <OurSpace />
-      
+      <Reviews />
+      <Contact />
+      <Footer />
     </div>
   </div>
   <WhatsappBtn />

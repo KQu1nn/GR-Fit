@@ -1,0 +1,85 @@
+<template>
+  <div
+    class="relative w-full min-h-[100dvh] bg-neutral-900  text-white flex flex-col gap-15 py-15 px-20 overflow-hidden">
+    <div class="absolute inset-0 flex items-center justify-center z-0">
+      <div class="w-[500px] h-[500px] bg-red-500/30 blur-[100px] rounded-full"></div>
+    </div>
+    <div class="flex flex-col items-center gap-5 relative z-10">
+      <span class=" w-19 h-19 rounded-full bg-red-500 flex items-center justify-center">
+        <Icon name="lucide:phone" size="32" class="text-white" />
+      </span>
+      <h3 class="text-4xl text-center font-bold">Vamos <span class="text-red-500">conversar?</span></h3>
+      <p class="w-4/6 text-center text-lg text-gray-400">Estamos aqui para ajudar você a dar o primeiro passo na sua
+        jornada de transformação. Entre em contato conosco!</p>
+      <hr class="w-1/6 border-t-4 border-red-500 mt-3" />
+    </div>
+
+    <div class="flex flex-row justify-center items-center relative z-10">
+      <div class="flex flex-row flex-wrap gap-5">
+        <ContactCard v-for="dataContact in dataContacts" :dataContact="dataContact" />
+      </div>
+      <div
+        class="w-[700px] h-[450px] bg-transaparent ml-10 rounded-lg flex flex-col items-center justify-center text-red-500 font-bold">
+        <h2 class="pb-4 text-xl flex items-center">
+          <Icon name="lucide:map-pin" size="20" class="inline-block mr-2" />
+          Localização
+        </h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.409804060616!2d-40.51863588405094!3d-9.392285990579908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x785737b6f3a2c9ff%3A0x2a7caa4a3c1f1a99!2sR.%20da%20Caridade%2C%20Dom%20Avelar%2C%20Petrolina%20-%20PE%2C%2056323-540!5e0!3m2!1spt-BR!2sbr!4v1693675000000!5m2!1spt-BR!2sbr"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+  <div class=" flex flex-col items-center gap-5 pt-10 bg-neutral-800 text-white py-10 relative z-10">
+    <h2 class="text-3xl font-bold">Pronto para começar?</h2>
+    <p class="text-lg text-center w-3/6 text-gray-300">Agende sua visita e conheça pessoalmente tudo o que a GRFIT pode
+      oferecer para sua transformação.</p>
+    <div class="flex flex-col items-center gap-3">
+      <button
+        class="flex flex-row items-center justify-center gap-3 text-lg px-5 py-3 bg-green-500 rounded-md cursor-pointer hover:scale-105 transition ease-in-out duration-300">
+        <Icon name="simple-icons:whatsapp" size="28" class="text-white" />
+        Converse no WhatsApp
+      </button>
+      <p class="text-md text-gray-300 ">Tire suas dúvidas ou matricule-se</p>
+    </div>
+  </div>
+</template>
+
+<script setup>
+const dataContacts = ref([
+  {
+    icon: 'lucide:map-pin',
+    title: 'Localização',
+    description: 'Rua Exemplo, 123',
+    subdescription: 'Bairro, Cidade - Estado',
+    button: 'Ver no maps',
+    url: '',
+  },
+  {
+    icon: 'lucide:phone',
+    title: 'Telefone',
+    description: '(11) 1234-5678',
+    subdescription: 'WhatsApp disponível',
+    button: 'Ligar agora',
+    url: '',
+  },
+  {
+    icon: 'lucide:clock',
+    title: 'Horários',
+    description: 'Seg-Sex: 5h às 23h',
+    subdescription: 'Sáb: 7h às 20h | Dom: 8h às 18h',
+    button: 'Ver Horarios',
+    url: '',
+  },
+  {
+    icon: 'lucide:instagram',
+    title: 'Instagram',
+    description: '@seu_instagram',
+    subdescription: 'Siga-nos para novidades',
+    button: 'Seguir no instagram',
+    url: '',
+  }
+])
+</script>
