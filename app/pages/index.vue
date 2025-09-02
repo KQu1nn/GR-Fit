@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <div class="w-full">
       <Hero />
       <Works />
       <About />

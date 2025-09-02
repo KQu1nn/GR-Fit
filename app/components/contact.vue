@@ -1,27 +1,33 @@
 <template>
   <div
-    class="relative w-full min-h-[100dvh] bg-neutral-900  text-white flex flex-col gap-15 py-15 px-20 overflow-hidden">
+    class="relative w-full min-h-[100dvh] bg-neutral-900 text-white flex flex-col gap-15 py-15 px-5 md:px-20 overflow-hidden">
     <div class="absolute inset-0 flex items-center justify-center z-0">
       <div class="w-[500px] h-[500px] bg-red-500/30 blur-[100px] rounded-full"></div>
     </div>
-    <div class="flex flex-col items-center gap-5 relative z-10">
-      <span class=" w-19 h-19 rounded-full bg-red-500 flex items-center justify-center">
-        <Icon name="lucide:phone" size="32" class="text-white" />
+
+    <div class="flex flex-col items-center gap-5 relative z-10 px-3 text-center">
+      <span class="w-16 h-16 md:w-19 md:h-19 rounded-full bg-red-500 flex items-center justify-center">
+        <Icon name="lucide:phone" size="28" class="text-white md:size-32" />
       </span>
-      <h3 class="text-4xl text-center font-bold">Vamos <span class="text-red-500">conversar?</span></h3>
-      <p class="w-4/6 text-center text-lg text-gray-400">Estamos aqui para ajudar você a dar o primeiro passo na sua
-        jornada de transformação. Entre em contato conosco!</p>
-      <hr class="w-1/6 border-t-4 border-red-500 mt-3" />
+      <h3 class="text-3xl md:text-4xl font-bold">
+        Vamos <span class="text-red-500">conversar?</span>
+      </h3>
+      <p class="w-full md:w-4/6 text-lg text-gray-400">
+        Estamos aqui para ajudar você a dar o primeiro passo na sua jornada de transformação. Entre em contato conosco!
+      </p>
+      <hr class="w-2/6 md:w-1/6 border-t-4 border-red-500 mt-3" />
     </div>
 
-    <div class="flex flex-row justify-center items-center relative z-10">
-      <div class="flex flex-row flex-wrap gap-5">
-        <ContactCard v-for="dataContact in dataContacts" :dataContact="dataContact" />
-      </div>
+    <div class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12 relative z-10">
+      <div class="flex flex-col md:flex-row md:flex-wrap gap-5 w-full md:w-auto justify-center items-center">
+  <ContactCard v-for="dataContact in dataContacts" :key="dataContact.title" :dataContact="dataContact" />
+</div>
+
+
       <div
-        class="w-[700px] h-[450px] bg-transaparent ml-10 rounded-lg flex flex-col items-center justify-center text-red-500 font-bold">
-        <h2 class="pb-4 text-xl flex items-center">
-          <Icon name="lucide:map-pin" size="20" class="inline-block mr-2" />
+        class="w-full h-[300px] md:w-[700px] md:h-[450px] bg-transparent rounded-lg flex flex-col items-center justify-center text-red-500 font-bold">
+        <h2 class="pb-4 text-lg md:text-xl flex items-center">
+          <Icon name="lucide:map-pin" size="18" class="inline-block mr-2 md:size-20" />
           Localização
         </h2>
         <iframe
@@ -32,17 +38,19 @@
       </div>
     </div>
   </div>
-  <div class=" flex flex-col items-center gap-5 pt-10 bg-neutral-800 text-white py-10 relative z-10">
-    <h2 class="text-3xl font-bold">Pronto para começar?</h2>
-    <p class="text-lg text-center w-3/6 text-gray-300">Agende sua visita e conheça pessoalmente tudo o que a GRFIT pode
-      oferecer para sua transformação.</p>
+
+  <div class="flex flex-col items-center gap-5 pt-10 bg-neutral-800 text-white py-10 relative z-10">
+    <h2 class="text-2xl md:text-3xl font-bold">Pronto para começar?</h2>
+    <p class="text-md md:text-lg text-center w-5/6 md:w-3/6 text-gray-300">
+      Agende sua visita e conheça pessoalmente tudo o que a GRFIT pode oferecer para sua transformação.
+    </p>
     <div class="flex flex-col items-center gap-3">
       <button
-        class="flex flex-row items-center justify-center gap-3 text-lg px-5 py-3 bg-green-500 rounded-md cursor-pointer hover:scale-105 transition ease-in-out duration-300">
-        <Icon name="simple-icons:whatsapp" size="28" class="text-white" />
+        class="flex flex-row items-center justify-center gap-3 text-md md:text-lg px-5 py-3 bg-green-500 rounded-md cursor-pointer hover:scale-105 transition ease-in-out duration-300">
+        <Icon name="simple-icons:whatsapp" size="24" class="text-white md:size-28" />
         Converse no WhatsApp
       </button>
-      <p class="text-md text-gray-300 ">Tire suas dúvidas ou matricule-se</p>
+      <p class="text-sm md:text-md text-gray-300">Tire suas dúvidas ou matricule-se</p>
     </div>
   </div>
 </template>

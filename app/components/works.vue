@@ -1,13 +1,13 @@
 <template>
-  <div class="w-full min-h-[100dvh] flex flex-col items-center bg-neutral-900 text-white py-25">
+  <div class="w-full min-h-[100dvh] flex flex-col items-center bg-neutral-900 text-white py-15 md:py-25">
     <div class="flex flex-col items-center gap-5">
       <span class=" w-19 h-19 rounded-full bg-red-500 flex items-center justify-center">
         <Icon name="lucide:dumbbell" size="32" class="text-white" />
       </span>
-      <h3 class="text-4xl text-center font-bentham font-bold">Conheça nossos trabalhos</h3>
-      <p class="w-4/6 text-center text-lg text-gray-400">Cada detalhe foi pensado para proporcionar a melhor experiência de treino. Venha conhecer nosso espaço onde sua transformação acontece.</p>
+      <h3 class="text-3xl md:text-4xl text-center font-bentham font-bold">Conheça nossos trabalhos</h3>
+      <p class="w-10/12 md:w-4/6 text-center text-lg text-gray-400">Cada detalhe foi pensado para proporcionar a melhor experiência de treino. Venha conhecer nosso espaço onde sua transformação acontece.</p>
     </div>
-    <div class="w-full min-h-[230px] flex flex-row justify-center gap-6 py-25 px-15">
+    <div class="w-full min-h-[230px] flex flex-row flex-wrap justify-center gap-6 py-15 md:py-25 px-15">
       <WorksCard :infosWorkCards="infosWorkCards" />
     </div>
     <div class="flex flex-col items-center gap-3">

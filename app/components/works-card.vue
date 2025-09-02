@@ -3,7 +3,7 @@
         <div class="w-[150px] h-[230px] ">
             <img :src="data.image" class="w-full h-full object-cover" />
         </div>
-        <div class="w-[360px] flex flex-col flex-1 gap-3 py-2 px-3 ">
+        <div class="w-[230px] flex flex-col flex-1 gap-3 py-2 px-3 ">
             <h2 class="text-2xl font-bold bg-gradient-to-r text-gray-900">{{ data.title }}</h2>
             <p class="text-sm text-start">{{ data.description }}</p>
         </div>
