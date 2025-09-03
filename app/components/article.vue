@@ -1,10 +1,10 @@
 <template>
   <article class=" bg-white w-[350px] rounded-xl px-5 pt-5 pb-1 hover:scale-105 cursor-pointer transition ease-in-out duration-300 shadow-md">
     <div class="flex items-center mb-4">
-      <img class="w-10 h-10 me-4 rounded-full" :src="pessoa1" alt="">
+      <img class="w-10 h-10 me-4 rounded-full" :src="dataArticle.avatar" alt="">
       <div class="font-medium dark:text-white">
-        <p class="text-black">Lusilaine Rios<time datetime="2014-08-16 19:00" class="block text-sm text-gray-500 dark:text-gray-400">
-            103 avaliações</time></p>
+        <p class="text-black">{{ dataArticle.name }}<time datetime="2014-08-16 19:00" class="block text-sm text-gray-500 dark:text-gray-400">
+            {{ dataArticle.reviews }} avaliações</time></p>
       </div>
     </div>
     <div class="flex items-center mb-1 space-x-1 rtl:space-x-reverse">
@@ -36,9 +36,9 @@
       
     </div>
     <footer class="mb-5 text-sm text-gray-500 dark:text-gray-400">
-      <p>1 ano atrás</p>
+      <p>{{ dataArticle.time }}</p>
     </footer>
-    <p class="mb-2 text-gray-500 dark:text-gray-400">Lugar agradável, organizado profissionais capacitados, nota 10.</p>
+    <p class="mb-2 text-gray-500 dark:text-gray-400">{{ dataArticle.comment }}</p>
 
     <a href="#" class="block mb-5 text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">Ler mais</a>
     
@@ -46,5 +46,11 @@
 
 </template>
 <script setup>
-import pessoa1 from '@/assets/images/p1.png'
+
+defineProps({
+  dataArticle: {
+    type: Object,
+    required: true
+  }
+})
 </script>

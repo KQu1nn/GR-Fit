@@ -46,9 +46,8 @@
       </div>
 
       <div class="flex flex-col md:flex-row gap-6 md:gap-4 flex-wrap items-center md:items-stretch">
-        <Article class="w-full md:w-[32%]" />
-        <Article class="w-full md:w-[32%]" />
-        <Article class="w-full md:w-[32%]" />
+        <Article v-for="dataArticle in datasArticle" :dataArticle="dataArticle" :key="dataArticle.id" class="w-full md:w-[32%]" />
+
       </div>
 
     </div>
@@ -56,4 +55,34 @@
 </template>
 
 <script setup>
+import p1 from '@/assets/images/p1.png'
+import p2 from '@/assets/images/p2.png'
+import p3 from '@/assets/images/p3.png'
+const datasArticle = [
+  {
+    id: 1,
+    name: 'Lusilaine Rios',
+    avatar: p1,
+    reviews: 103,
+    time: '1 ano atrás',
+    comment: 'Lugar agradável, organizado profissionais capacitados, nota 10.'
+  },
+  {
+    id: 2,
+    name: 'Itacuiris Oliveira (Íris)',
+    avatar: p2,
+    reviews: 22,
+    time: '6 meses atrás',
+    comment: `Foi muito bom! Um experiência que deixou gostinho de quero mais. super indico!!! 
+Hoje sou cliente fiel...`
+  },
+  {
+    id: 3,
+    name: 'Suedna Priscila Rodrigues Moreira',
+    avatar: p3,
+    reviews: 76,
+    time: '3 meses atrás',
+    comment: 'Toda a equipe está de parabéns. Obrigada por esse atendimento diferenciado'
+  }
+]
 </script>
