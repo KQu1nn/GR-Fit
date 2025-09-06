@@ -48,7 +48,7 @@
       <button
         class="flex flex-row items-center justify-center gap-3 text-md md:text-lg px-5 py-3 bg-green-500 rounded-md cursor-pointer hover:scale-105 transition ease-in-out duration-300">
         <Icon name="simple-icons:whatsapp" size="24" class="text-white md:size-28" />
-        <a href="https://wa.me/5599999999999">Converse no WhatsApp</a>
+        <a href="https://api.whatsapp.com/send/?phone=5587991931948&">Converse no WhatsApp</a>
       </button>
       <p class="text-sm md:text-md text-gray-300">Tire suas dúvidas ou matricule-se</p>
     </div>

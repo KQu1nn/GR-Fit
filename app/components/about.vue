@@ -45,7 +45,7 @@
               <Icon name="lucide:map-pin" size="28"
                 class="cursor-pointer hover:scale-110 transition ease-in-out duration-200 text-red-500/80" />
             </a>
-            <a href="https://wa.me/5599999999999">
+            <a href="https://api.whatsapp.com/send/?phone=5587991931948&text=Gostaria+de+saber+o+valor!">
               <Icon name="lucide:phone" size="28"
                 class="cursor-pointer hover:scale-110 transition ease-in-out duration-200 text-red-500/80" />
             </a>

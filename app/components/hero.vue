@@ -21,7 +21,7 @@
         <div class="flex flex-col md:flex-row gap-5 md:gap-8 items-center">
           <button
             class="bg-red-500 text-md text-white font-bold cursor-pointer px-6 py-3 rounded-lg hover:scale-105 transition ease-in-out duration-300 w-full md:w-auto">
-            <a href="https://wa.me/5599999999999">Matricule-se agora</a>
+            <a href="https://api.whatsapp.com/send/?phone=5587991931948&text=Gostaria+de+saber+o+valor!">Matricule-se agora</a>
           </button>
           <button
             class="bg-neutral-900 shadow-md border-2 border-red-500 text-md text-red-500 flex items-center justify-center cursor-pointer font-bold px-6 py-3 rounded-xl hover:scale-105 transition ease-in-out duration-300 w-full md:w-auto">
