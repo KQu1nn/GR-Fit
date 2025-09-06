@@ -13,20 +13,20 @@
       
       <div class="w-full md:w-3/6 my-auto flex flex-col gap-6 md:gap-5 items-center md:items-start text-center md:text-left relative z-20">
         <h1 class="w-full md:w-11/12 font-bentham font-bold text-5xl md:text-6xl text-white leading-snug md:leading-14">
-          Transforme seu corpo. Eleve sua mente.
+          Mais que uma academia, uma jornada.
         </h1>
         <p class="w-10/12 md:w-8/12 text-gray-300 text-base md:text-lg">
-          Na GR FIT, ajudamos você a encontrar seu equilíbrio entre força e mente.
+          Na GR FIT, você supera limites e descobre o seu verdadeiro potencial.
         </p>
         <div class="flex flex-col md:flex-row gap-5 md:gap-8 items-center">
           <button
             class="bg-red-500 text-md text-white font-bold cursor-pointer px-6 py-3 rounded-lg hover:scale-105 transition ease-in-out duration-300 w-full md:w-auto">
-            Matricule-se agora
+            <a href="https://wa.me/5599999999999">Matricule-se agora</a>
           </button>
           <button
             class="bg-neutral-900 shadow-md border-2 border-red-500 text-md text-red-500 flex items-center justify-center cursor-pointer font-bold px-6 py-3 rounded-xl hover:scale-105 transition ease-in-out duration-300 w-full md:w-auto">
             <Icon name="lucide:map-pin" size="24" class="inline text-red-500 mr-2" />
-            Localização
+            <a href="https://www.google.com/maps/place/GR+FIT+ACADEMIA/@-9.3558788,-40.5001942,15z/data=!4m15!1m8!3m7!1s0x7737aeef7e980bb:0xa3da4d4bd46371!2sR.+do+M%C3%A1rmore+-+Petrolina,+PE!3b1!8m2!3d-9.3547177!4d-40.500205!16s%2Fg%2F1ymxdxh6q!3m5!1s0x7737b93f4b6ce6f:0x44b5d5535f253c75!8m2!3d-9.3540765!4d-40.4911714!16s%2Fg%2F11qzfz5l_s?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D">Localização</a>
           </button>
         </div>
       </div>

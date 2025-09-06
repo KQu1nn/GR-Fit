@@ -55,7 +55,7 @@
     <hr class="w-full border-t border-gray-700" />
 
     <div class="flex flex-col md:flex-row justify-between items-center gap-3">
-      <p class="text-center md:text-left text-sm text-gray-400">© 2024 GR FIT Academia. Todos os direitos reservados.</p>
+      <p class="text-center md:text-left text-sm text-gray-400">© 2025 GR FIT Academia. Todos os direitos reservados.</p>
       <p class="text-center md:text-left text-sm text-gray-400">Feito por <a href="">Ramon Kelvin</a></p>
     </div>
   </footer>

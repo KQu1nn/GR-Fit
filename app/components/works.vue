@@ -13,7 +13,7 @@
     <div class="flex flex-col items-center gap-3">
         <button class="flex flex-row items-center justify-center gap-3 text-lg px-5 py-3 bg-green-500 rounded-md cursor-pointer hover:scale-105 transition ease-in-out duration-300">
           <Icon name="simple-icons:whatsapp" size="25" class="text-white" />
-          Converse no WhatsApp
+          <a href="https://wa.me/5599999999999">Converse no WhatsApp</a>
         </button>
         <p class="text-md text-gray-300 ">Tire suas dúvidas ou matricule-se</p>
       </div>

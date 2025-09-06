@@ -15,8 +15,7 @@
     </div>
 
     <div class="md:py-20 md:px-10 flex flex-col md:flex-row gap-10 md:gap-20 items-center md:items-start">
-      <img :src="aboutImage" alt="GR FIT"
-        class="w-full max-w-[420px] h-auto rounded-lg md:h-[520px] object-cover" />
+      <img :src="aboutImage" alt="GR FIT" class="w-full max-w-[420px] h-auto rounded-lg md:h-[520px] object-cover" />
 
       <div class="flex flex-col justify-center gap-6 text-gray-300 text-base md:text-md text-center md:text-left">
         <h1 class="text-3xl md:text-4xl text-white">Quem é a GRFIT?</h1>
@@ -41,12 +40,20 @@
         <div class="w-full flex flex-col gap-3">
           <p class="text-lg font-bold">Localização e Contato</p>
           <div class="flex flex-wrap justify-center md:justify-start gap-4 mt-2">
-            <Icon name="lucide:map-pin" size="28"
-              class="cursor-pointer hover:scale-110 transition ease-in-out duration-200 text-red-500/80" />
-            <Icon name="lucide:phone" size="28"
-              class="cursor-pointer hover:scale-110 transition ease-in-out duration-200 text-red-500/80" />
-            <Icon name="lucide:instagram" size="28"
-              class="cursor-pointer hover:scale-110 transition ease-in-out duration-200 text-red-500/80" />
+            <a
+              href="https://www.google.com/maps/place/GR+FIT+ACADEMIA/@-9.3558788,-40.5001942,15z/data=!4m15!1m8!3m7!1s0x7737aeef7e980bb:0xa3da4d4bd46371!2sR.+do+M%C3%A1rmore+-+Petrolina,+PE!3b1!8m2!3d-9.3547177!4d-40.500205!16s%2Fg%2F1ymxdxh6q!3m5!1s0x7737b93f4b6ce6f:0x44b5d5535f253c75!8m2!3d-9.3540765!4d-40.4911714!16s%2Fg%2F11qzfz5l_s?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D">
+              <Icon name="lucide:map-pin" size="28"
+                class="cursor-pointer hover:scale-110 transition ease-in-out duration-200 text-red-500/80" />
+            </a>
+            <a href="https://wa.me/5599999999999">
+              <Icon name="lucide:phone" size="28"
+                class="cursor-pointer hover:scale-110 transition ease-in-out duration-200 text-red-500/80" />
+            </a>
+            <a href="https://www.instagram.com/grfit.academia">
+              <Icon name="lucide:instagram" size="28"
+                class="cursor-pointer hover:scale-110 transition ease-in-out duration-200 text-red-500/80" />
+            </a>
+
             <Icon name="lucide:mail" size="28"
               class="cursor-pointer hover:scale-110 transition ease-in-out duration-200 text-red-500/80" />
           </div>

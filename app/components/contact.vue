@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div id="contato"
     class="relative w-full min-h-[100dvh] bg-neutral-900 text-white flex flex-col gap-15 py-15 px-5 md:px-20 overflow-hidden">
     <div class="absolute inset-0 flex items-center justify-center z-0">
       <div class="w-[500px] h-[500px] bg-red-500/30 blur-[100px] rounded-full"></div>
@@ -40,15 +40,15 @@
   </div>
 
   <div class="flex flex-col items-center gap-5 pt-10 bg-neutral-800 text-white py-10 relative z-10">
-    <h2 class="text-2xl md:text-3xl font-bold">Pronto para começar?</h2>
+    <h2 class="text-2xl md:text-3xl font-bold">Pronto para <span class="text-red-500">começar?</span></h2>
     <p class="text-md md:text-lg text-center w-5/6 md:w-3/6 text-gray-300">
-      Agende sua visita e conheça pessoalmente tudo o que a GRFIT pode oferecer para sua transformação.
+      <span class="font-bold">Agende</span> sua visita e conheça pessoalmente tudo o que a <span class="font-bold">GRFIT</span> pode oferecer para sua <span class="font-bold">transformação.</span>
     </p>
     <div class="flex flex-col items-center gap-3">
       <button
         class="flex flex-row items-center justify-center gap-3 text-md md:text-lg px-5 py-3 bg-green-500 rounded-md cursor-pointer hover:scale-105 transition ease-in-out duration-300">
         <Icon name="simple-icons:whatsapp" size="24" class="text-white md:size-28" />
-        Converse no WhatsApp
+        <a href="https://wa.me/5599999999999">Converse no WhatsApp</a>
       </button>
       <p class="text-sm md:text-md text-gray-300">Tire suas dúvidas ou matricule-se</p>
     </div>
@@ -60,23 +60,23 @@ const dataContacts = ref([
   {
     icon: 'lucide:map-pin',
     title: 'Localização',
-    description: 'Rua Exemplo, 123',
-    subdescription: 'Bairro, Cidade - Estado',
+    description: 'R. da Caridade',
+    subdescription: 'Dom Avelar, Petrolina - PE',
     button: 'Ver no maps',
-    url: '',
+    url: 'https://www.google.com/maps/place/GR+FIT+ACADEMIA/@-9.3558788,-40.5001942,15z/data=!4m15!1m8!3m7!1s0x7737aeef7e980bb:0xa3da4d4bd46371!2sR.+do+M%C3%A1rmore+-+Petrolina,+PE!3b1!8m2!3d-9.3547177!4d-40.500205!16s%2Fg%2F1ymxdxh6q!3m5!1s0x7737b93f4b6ce6f:0x44b5d5535f253c75!8m2!3d-9.3540765!4d-40.4911714!16s%2Fg%2F11qzfz5l_s?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D',
   },
   {
     icon: 'lucide:phone',
     title: 'Telefone',
-    description: '(11) 1234-5678',
+    description: '(87) 99195-0269',
     subdescription: 'WhatsApp disponível',
     button: 'Ligar agora',
-    url: '',
+    url: 'https://wa.me/5599999999999',
   },
   {
     icon: 'lucide:clock',
     title: 'Horários',
-    description: 'Seg-Sex: 5h às 23h',
+    description: 'Seg-Sex: 6h às 23h',
     subdescription: 'Sáb: 7h às 20h | Dom: 8h às 18h',
     button: 'Ver Horarios',
     url: '',
@@ -84,10 +84,10 @@ const dataContacts = ref([
   {
     icon: 'lucide:instagram',
     title: 'Instagram',
-    description: '@seu_instagram',
+    description: '@grfit.academia',
     subdescription: 'Siga-nos para novidades',
     button: 'Seguir no instagram',
-    url: '',
+    url: 'https://www.instagram.com/grfit.academia',
   }
 ])
 </script>
