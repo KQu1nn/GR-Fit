@@ -11,7 +11,7 @@
       <WorksCard v-for="item in infosWorkCards" :key="item.id" :data="item" />
     </div>
     <div class="flex flex-col items-center gap-3">
-        <button class="flex flex-row items-center justify-center gap-3 text-lg px-5 py-3 bg-green-500 rounded-md cursor-pointer hover:scale-105 transition ease-in-out duration-300">
+        <button class="flex flex-row items-center justify-center gap-3 text-lg px-5 py-3 bg-green-600 rounded-md cursor-pointer hover:scale-105 transition ease-in-out duration-300">
           <Icon name="simple-icons:whatsapp" size="25" class="text-white" />
           <a href="https://api.whatsapp.com/send/?phone=5587991931948&text=Gostaria+de+saber+o+valor!">Converse no WhatsApp</a>
         </button>

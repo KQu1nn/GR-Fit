@@ -19,12 +19,12 @@
           Na GR FIT, você supera limites e descobre o seu verdadeiro potencial.
         </p>
         <div class="flex flex-col md:flex-row gap-5 md:gap-8 items-center">
-          <button aria-labels="matricule-se"
+          <button aria-label="matricule-se"
             class="bg-red-500 text-md text-white font-bold cursor-pointer px-6 py-3 rounded-lg hover:scale-105 transition ease-in-out duration-300 w-full md:w-auto">
             <a href="https://api.whatsapp.com/send/?phone=5587991931948&text=Gostaria+de+saber+o+valor!">Matricule-se
               agora</a>
           </button>
-          <button aria-labels="mapa"
+          <button aria-label="mapa"
             class="bg-neutral-900 shadow-md border-2 border-red-500 text-md text-red-500 flex items-center justify-center cursor-pointer font-bold px-6 py-3 rounded-xl hover:scale-105 transition ease-in-out duration-300 w-full md:w-auto">
             <Icon name="lucide:map-pin" size="24" class="inline text-red-500 mr-2" />
             <a

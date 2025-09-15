@@ -3,6 +3,7 @@
     href="https://api.whatsapp.com/send/?phone=5587991931948&text=Gostaria+de+saber+o+valor!"
     target="_blank"
     rel="noopener noreferrer"
+    aria-label="Converse no WhatsApp"
     class="fixed bottom-10 right-10 bg-green-500 hover:bg-green-600 text-white p-5 rounded-full shadow-lg flex items-center justify-center transition-transform hover:scale-115 z-50"
   >
     <Icon name="simple-icons:whatsapp" size="30" class="text-white" />

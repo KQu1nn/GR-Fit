@@ -9,13 +9,13 @@
 
     <ul class="hidden md:flex flex-row gap-10 list-none text-md font-medium text-sm">
       <li v-for="item in menu" :key="item.id" @click="goToSection(item.id)"
-        class="cursor-pointer hover:text-red-500/90 hover:font-bold hover:scale-105 transition ease-in-out duration-100">
+        class="cursor-pointer hover:text-red-600/90 hover:font-bold hover:scale-105 transition ease-in-out duration-100">
         {{ item.label }}
       </li>
     </ul>
 
     <button
-      class="hidden md:block bg-red-500 text-sm font-bold px-5 py-2 cursor-pointer rounded-lg hover:scale-105 transition ease-in-out duration-300">
+      class="hidden md:block bg-red-600 text-sm font-bold px-5 py-2 cursor-pointer rounded-lg hover:scale-105 transition ease-in-out duration-300">
       <a href="https://api.whatsapp.com/send/?phone=5587991931948&text=Gostaria+de+saber+o+valor!">Matricule-se agora</a>
     </button>
 

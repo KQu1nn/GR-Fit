@@ -33,7 +33,8 @@
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.409804060616!2d-40.51863588405094!3d-9.392285990579908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x785737b6f3a2c9ff%3A0x2a7caa4a3c1f1a99!2sR.%20da%20Caridade%2C%20Dom%20Avelar%2C%20Petrolina%20-%20PE%2C%2056323-540!5e0!3m2!1spt-BR!2sbr!4v1693675000000!5m2!1spt-BR!2sbr"
           width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localização da GR Fit no Google Maps">
         </iframe>
       </div>
     </div>
@@ -45,7 +46,7 @@
       <span class="font-bold">Agende</span> sua visita e conheça pessoalmente tudo o que a <span class="font-bold">GRFIT</span> pode oferecer para sua <span class="font-bold">transformação.</span>
     </p>
     <div class="flex flex-col items-center gap-3">
-      <button aria-labels="whatsapp"
+      <button aria-label="whatsapp"
         class="flex flex-row items-center justify-center gap-3 text-md md:text-lg px-5 py-3 bg-green-500 rounded-md cursor-pointer hover:scale-105 transition ease-in-out duration-300">
         <Icon name="simple-icons:whatsapp" size="24" class="text-white md:size-28" />
         <a href="https://api.whatsapp.com/send/?phone=5587991931948&">Converse no WhatsApp</a>
