@@ -3,7 +3,7 @@
     class="relative w-full min-h-[100dvh] bg-neutral-900 text-white flex flex-col gap-12 py-20 px-6 md:px-30 overflow-hidden">
 
     <div class="absolute inset-0 flex items-center justify-center">
-      <div class="w-[400px] md:w-[500px] h-[400px] md:h-[500px] bg-red-500/40 blur-[100px] rounded-full"></div>
+      <div class="w-[400px] md:w-[500px] h-[400px] md:h-[500px] bg-red-500/40 blur-[50px] md:blur-[100px]"></div>
     </div>
     
     <div class="relative flex flex-col items-center gap-5 z-10 px-2">
@@ -19,24 +19,24 @@
     <div
       class="w-full flex flex-col md:flex-row md:flex-wrap gap-6 relative z-10 pb-10 items-center md:items-stretch">
       <img
-        class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-lg hover:scale-105 transition ease-in-out duration-300"
-        :src="spaceImage1" />
+        class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-md hover:scale-105 transition ease-in-out duration-300"
+        :src="spaceImage1" alt="nosso-espaço" />
       <img
-        class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-lg hover:scale-105 transition ease-in-out duration-300"
-        :src="spaceImage2" />
+        class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-md hover:scale-105 transition ease-in-out duration-300"
+        :src="spaceImage2" alt="nosso-espaço" />
       <img
-        class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-lg hover:scale-105 transition ease-in-out duration-300"
-        :src="aboutImage" />
+        class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-md hover:scale-105 transition ease-in-out duration-300"
+        :src="aboutImage" alt="nosso-espaço" />
       <img
-        class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-lg hover:scale-105 transition ease-in-out duration-300"
-        :src="spaceImage3" />
+        class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-md hover:scale-105 transition ease-in-out duration-300"
+        :src="spaceImage3" alt="nosso-espaço" />
     </div>
   </div>
 </template>
 
 <script setup>
-import aboutImage from '@/assets/images/about.jpeg'
-import spaceImage1 from '@/assets/images/space1.jpeg'
-import spaceImage2 from '@/assets/images/space2.jpeg'
-import spaceImage3 from '@/assets/images/space3.jpg'
+import aboutImage from '@/assets/images/about.webp'
+import spaceImage1 from '@/assets/images/space1.webp'
+import spaceImage2 from '@/assets/images/space2.webp'
+import spaceImage3 from '@/assets/images/space3.webp'
 </script>

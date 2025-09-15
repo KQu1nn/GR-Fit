@@ -9,7 +9,7 @@
 
     <ul class="hidden md:flex flex-row gap-10 list-none text-md font-medium text-sm">
       <li v-for="item in menu" :key="item.id" @click="goToSection(item.id)"
-        class="cursor-pointer hover:text-red-500/90 hover:font-bold hover:scale-103 transition ease-in-out duration-100">
+        class="cursor-pointer hover:text-red-500/90 hover:font-bold hover:scale-105 transition ease-in-out duration-100">
         {{ item.label }}
       </li>
     </ul>

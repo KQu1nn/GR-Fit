@@ -6,9 +6,10 @@
       <About id="sobre"/>
       <OurSpace id="espaco"/>
       <Reviews id="avaliacoes"/>
-      <Contact id="contato"/>
+      <Contact />
       <Footer />
+      <WhatsappBtn />
     </div>
   </div>
-  <WhatsappBtn />
+  
 </template>

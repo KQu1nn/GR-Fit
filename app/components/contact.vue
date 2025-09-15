@@ -45,7 +45,7 @@
       <span class="font-bold">Agende</span> sua visita e conheça pessoalmente tudo o que a <span class="font-bold">GRFIT</span> pode oferecer para sua <span class="font-bold">transformação.</span>
     </p>
     <div class="flex flex-col items-center gap-3">
-      <button
+      <button aria-labels="whatsapp"
         class="flex flex-row items-center justify-center gap-3 text-md md:text-lg px-5 py-3 bg-green-500 rounded-md cursor-pointer hover:scale-105 transition ease-in-out duration-300">
         <Icon name="simple-icons:whatsapp" size="24" class="text-white md:size-28" />
         <a href="https://api.whatsapp.com/send/?phone=5587991931948&">Converse no WhatsApp</a>

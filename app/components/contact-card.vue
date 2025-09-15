@@ -12,7 +12,7 @@
         <span class="text-sm text-gray-400">{{ dataContact.subdescription }}</span>
       </div>
       <a :href="dataContact.url" target="_blank" rel="noopener noreferrer">
-        <button class="bg-red-500/80 hover:scale-105 transition ease-in-out duration-200 text-red-white w-full my-5 py-2 rounded-lg cursor-pointer">{{ dataContact.button }}</button>
+        <button aria-labels="contato" class="bg-red-500/80 hover:scale-105 transition ease-in-out duration-200 text-white w-full my-5 py-2 rounded-lg cursor-pointer">{{ dataContact.button }}</button>
       </a>
     </div>
 

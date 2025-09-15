@@ -64,5 +64,5 @@
 </template>
 
 <script setup>
-import aboutImage from '@/assets/images/about.jpeg'
+import aboutImage from '@/assets/images/about.webp'
 </script>
