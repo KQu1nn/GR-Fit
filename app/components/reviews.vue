@@ -55,14 +55,12 @@
 </template>
 
 <script setup>
-import p1 from '@/assets/images/p1.webp'
-import p2 from '@/assets/images/p2.webp'
-import p3 from '@/assets/images/p3.webp'
+
 const datasArticle = [
   {
     id: 1,
     name: 'Lusilaine Rios',
-    avatar: p1,
+    avatar: '/images/p1.webp',
     reviews: 103,
     time: '1 ano atrás',
     comment: 'Lugar agradável, organizado profissionais capacitados, nota 10.'
@@ -70,7 +68,7 @@ const datasArticle = [
   {
     id: 2,
     name: 'Itacuiris Oliveira (Íris)',
-    avatar: p2,
+    avatar: '/images/p2.webp',
     reviews: 22,
     time: '6 meses atrás',
     comment: `Foi muito bom! Um experiência que deixou gostinho de quero mais. super indico!!! 
@@ -79,7 +77,7 @@ Hoje sou cliente fiel...`
   {
     id: 3,
     name: 'Suedna Priscila Rodrigues Moreira',
-    avatar: p3,
+    avatar: '/images/p3.webp',
     reviews: 76,
     time: '3 meses atrás',
     comment: 'Toda a equipe está de parabéns. Obrigada por esse atendimento diferenciado'

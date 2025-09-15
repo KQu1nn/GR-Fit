@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import { NuxtImg } from '#components';
+
+</script>
+
 <template>
   <div
     class="relative w-full min-h-[100dvh] bg-neutral-900 text-white flex flex-col gap-12 py-20 px-6 md:px-30 overflow-hidden">
@@ -18,25 +23,26 @@
 
     <div
       class="w-full flex flex-col md:flex-row md:flex-wrap gap-6 relative z-10 pb-10 items-center md:items-stretch">
-      <img
+      <NuxtImg
+        width="254"
+        height="350"
         class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-md hover:scale-105 transition ease-in-out duration-300"
-        :src="spaceImage1" alt="Nosso Espaço" />
-      <img
+        src="/images/about.webp" alt="Nosso Espaçoo Academia" />
+      <NuxtImg
+        width="254"
+        height="350"
         class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-md hover:scale-105 transition ease-in-out duration-300"
-        :src="spaceImage2" alt="Nosso Espaço" />
-      <img
+        src="/images/space1.webp" alt="Nosso Espaço Academia" />
+      <NuxtImg
+        width="254"
+        height="350"
         class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-md hover:scale-105 transition ease-in-out duration-300"
-        :src="aboutImage" alt="Nosso Espaço" />
-      <img
+        src="/images/space2.webp" alt="Nosso Espaço Academia" />
+      <NuxtImg
+        width="254"
+        height="350"
         class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-md hover:scale-105 transition ease-in-out duration-300"
-        :src="spaceImage3" alt="Nosso Espaço" />
+        src="/images/space3.webp" alt="Nosso Espaço Academia" />
     </div>
   </div>
 </template>
-
-<script setup>
-import aboutImage from '@/assets/images/about.webp'
-import spaceImage1 from '@/assets/images/space1.webp'
-import spaceImage2 from '@/assets/images/space2.webp'
-import spaceImage3 from '@/assets/images/space3.webp'
-</script>

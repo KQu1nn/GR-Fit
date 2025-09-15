@@ -1,7 +1,7 @@
 <template>
   <article class=" bg-white w-[350px] rounded-xl px-5 pt-5 pb-1 hover:scale-105 cursor-pointer transition ease-in-out duration-300 shadow-md">
     <div class="flex items-center mb-4">
-      <img class="w-10 h-10 me-4 rounded-full" :src="dataArticle.avatar" alt="profile-image">
+      <NuxtImg class="w-10 h-10 me-4 rounded-full" :src="dataArticle.avatar" alt="Imagem de perfil" />
       <div class="font-medium dark:text-white">
         <p class="text-black">{{ dataArticle.name }}<time datetime="2014-08-16 19:00" class="block text-sm text-gray-500 dark:text-gray-400">
             {{ dataArticle.reviews }} avaliações</time></p>

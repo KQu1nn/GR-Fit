@@ -21,13 +21,10 @@
 </template>
 
 <script setup>
-import work1 from '@/assets/images/work1.webp'
-import work2 from '@/assets/images/work2.webp'
-import work3 from '@/assets/images/work3.webp'
 
 const infosWorkCards = ref([
-  { title: 'Musculação', description: 'Musculação fortalece os músculos, melhora a saúde cardiovascular e ajuda a prevenir doenças e quedas, mantendo seu corpo mais saudável e resistente.', image: work1, alt: 'musculação'},
-  { title: 'Funcional ', description: 'O treino funcional melhora a força, flexibilidade e equilíbrio, ajudando na prevenção de lesões e promovendo um corpo mais ágil e saudável.', image: work2, alt: 'funcional'},
-  { title: 'Fit Dance', description: 'Aulas de dança promovem bem-estar, melhoram coordenação e postura, fortalecem a autoestima e ajudam a reduzir o estresse.', image: work3, alt: 'fit-dance'}
+  { title: 'Musculação', description: 'Musculação fortalece os músculos, melhora a saúde cardiovascular e ajuda a prevenir doenças e quedas, mantendo seu corpo mais saudável e resistente.', image: '/images/work1.webp', alt: 'Musculação'},
+  { title: 'Funcional ', description: 'O treino funcional melhora a força, flexibilidade e equilíbrio, ajudando na prevenção de lesões e promovendo um corpo mais ágil e saudável.', image: '/images/work2.webp', alt: 'Treino Funcional'},
+  { title: 'Fit Dance', description: 'Aulas de dança promovem bem-estar, melhoram coordenação e postura, fortalecem a autoestima e ajudam a reduzir o estresse.', image: '/images/work3.webp', alt: 'Fit Dance'}
 ])
 </script>

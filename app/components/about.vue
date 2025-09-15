@@ -15,7 +15,7 @@
     </div>
 
     <div class="md:py-20 md:px-10 flex flex-col md:flex-row gap-10 md:gap-20 items-center md:items-start">
-      <img :src="aboutImage" alt="GR FIT" class="w-full max-w-[420px] h-auto rounded-lg md:h-[520px] object-cover" />
+      <NuxtImg src="/images/about.webp" alt="GR FIT Academia" class="w-full max-w-[420px] h-auto rounded-lg md:h-[520px] object-cover" />
 
       <div class="flex flex-col justify-center gap-6 text-gray-300 text-base md:text-md text-center md:text-left">
         <h1 class="text-3xl md:text-4xl text-white">Quem é a GRFIT?</h1>
@@ -62,7 +62,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import aboutImage from '@/assets/images/about.webp'
-</script>
