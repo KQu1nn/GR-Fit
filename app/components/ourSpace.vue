@@ -20,16 +20,16 @@
       class="w-full flex flex-col md:flex-row md:flex-wrap gap-6 relative z-10 pb-10 items-center md:items-stretch">
       <img
         class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-md hover:scale-105 transition ease-in-out duration-300"
-        :src="spaceImage1" alt="nosso-espaço" />
+        :src="spaceImage1" alt="Nosso Espaço" />
       <img
         class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-md hover:scale-105 transition ease-in-out duration-300"
-        :src="spaceImage2" alt="nosso-espaço" />
+        :src="spaceImage2" alt="Nosso Espaço" />
       <img
         class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-md hover:scale-105 transition ease-in-out duration-300"
-        :src="aboutImage" alt="nosso-espaço" />
+        :src="aboutImage" alt="Nosso Espaço" />
       <img
         class="w-full md:w-auto h-auto md:h-[350px] object-cover rounded-md hover:scale-105 transition ease-in-out duration-300"
-        :src="spaceImage3" alt="nosso-espaço" />
+        :src="spaceImage3" alt="Nosso Espaço" />
     </div>
   </div>
 </template>
